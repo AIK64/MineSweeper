@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>扫雷</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <widget class="QMenu" name="menugame">
+    <property name="title">
+     <string>levelchange</string>
+    </property>
+    <addaction name="actionPaimary"/>
+    <addaction name="actionMiddle"/>
+    <addaction name="actionSenior"/>
+    <addaction name="actionuser_define"/>
+    <addaction name="actionquit"/>
+   </widget>
+   <addaction name="menugame"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionPaimary">
+   <property name="text">
+    <string>Paimary</string>
+   </property>
+  </action>
+  <action name="actionMiddle">
+   <property name="text">
+    <string>Middle</string>
+   </property>
+  </action>
+  <action name="actionquit">
+   <property name="text">
+    <string>quit</string>
+   </property>
+  </action>
+  <action name="actionhelp">
+   <property name="text">
+    <string>help</string>
+   </property>
+  </action>
+  <action name="actionhow_to_play">
+   <property name="text">
+    <string>how to play</string>
+   </property>
+  </action>
+  <action name="actionSenior">
+   <property name="text">
+    <string>Senior</string>
+   </property>
+  </action>
+  <action name="actionuser_define">
+   <property name="text">
+    <string>user define</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
